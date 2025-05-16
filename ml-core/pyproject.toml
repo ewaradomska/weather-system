@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ml-core"
+version = "0.1.0"
+description = ""
+authors = ["Ewa Radomska <ewa.radomska@codeclusive.io>"]
+readme = "README.md"
+packages = [{include = "ml_core"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
